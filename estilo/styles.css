@@ -1,104 +1,321 @@
-.Encabezado{
-    align-self: center;
-}
-.Nombre{
-    text-align: center;
-    font-family: "Pixelify Sans", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-}
-.Slogan{
-    text-align: center;
-    font-family: "Pixelify Sans", sans-serif;
-    font-size: 35px;
-}
-.Comunidades{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    align-self: center;
-    justify-content: center;
-    flex-direction: column;
-    
-}
-.TwitterBox{
-    display: flex;
-    text-align: center;
-    width: 40%;
-    border-style:inset;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(209, 205, 205);
-    overflow:auto;
+/**Movil**/
 
-}
-.TwitterBox:hover{
-    color: black;
-}
-.DiscordBox{
-    display: flex;
-    text-align: center;
-    width: 40%;
-    border-style:inset;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(209, 205, 205);
-    overflow:auto;
+@media (max-width: 767px) {
+    .Nombre{
+        text-align: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .Slogan{
+        text-align: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 35px;
+    }
+    .Comunidades{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .TwitterBox{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
 
-}
-.DiscordBox:hover{
-    color: black;
-}
-.InstagramBox{
-    display: flex;
-    text-align: center;
-    width: 40%;
-    border-style:inset;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(209, 205, 205);
-    overflow:auto;
-}
-.InstagramBox:hover{
-    color: black;
-}
-.logo{
-    text-align: start;
-}
-.imagenlogo{
-    width: 168px;
-    height: 168px;
-}
-.parrafobox{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    width: 60%;
-    color: black;
-}
-.parrafo{
-    display: flex;
-    font-size: large;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-family: "Pixelify Sans", sans-serif;
-    font-size: 25px;
-}
-.qr{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    border-style:solid;
-    color: black;
-}
-.imagenqr{
-    width: 168px;
-    height: 168px;
+    }
+    .TwitterBox:hover{
+        color: black;
+    }
+    .DiscordBox{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+
+    }
+    .DiscordBox:hover{
+        color: black;
+    }
+    .InstagramBox{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+    }
+    .InstagramBox:hover{
+        color: black;
+    }
+    .logo{
+        text-align: start;
+    }
+    .imagenlogo{
+        width: 168px;
+        height: 168px;
+    }
+    .parrafobox{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 60%;
+        color: black;
+    }
+    .parrafo{
+        display: flex;
+        font-size: large;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+    }
+    .qr{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        border-style:solid;
+        color: black;
+    }
+    .imagenqr{
+        width: 168px;
+        height: 168px;
+    }
+
+    a.hover{
+        color: #0000;
+    }
 }
 
-a.hover{
-    color: #0000;
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .Nombre{
+        text-align: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .Slogan{
+        text-align: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 35px;
+    }
+    .Comunidades{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .TwitterBox{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+
+    }
+    .TwitterBox:hover{
+        color: black;
+    }
+    .DiscordBox{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+
+    }
+    .DiscordBox:hover{
+        color: black;
+    }
+    .InstagramBox{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+    }
+    .InstagramBox:hover{
+        color: black;
+    }
+    .logo{
+        text-align: start;
+    }
+    .imagenlogo{
+        width: 168px;
+        height: 168px;
+    }
+    .parrafobox{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 60%;
+        color: black;
+    }
+    .parrafo{
+        display: flex;
+        font-size: large;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+    }
+    .qr{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        border-style:solid;
+        color: black;
+    }
+    .imagenqr{
+        width: 168px;
+        height: 168px;
+    }
+
+    a.hover{
+        color: #0000;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .Encabezado{
+        align-self: center;
+    }
+    .Nombre{
+        text-align: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .Slogan{
+        text-align: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 35px;
+    }
+    .Comunidades{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .TwitterBox{
+        display: flex;
+        text-align: center;
+        width: 40%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+
+    }
+    .TwitterBox:hover{
+        color: black;
+    }
+    .DiscordBox{
+        display: flex;
+        text-align: center;
+        width: 40%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+
+    }
+    .DiscordBox:hover{
+        color: black;
+    }
+    .InstagramBox{
+        display: flex;
+        text-align: center;
+        width: 40%;
+        border-style:inset;
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(209, 205, 205);
+        overflow:auto;
+    }
+    .InstagramBox:hover{
+        color: black;
+    }
+    .logo{
+        text-align: start;
+    }
+    .imagenlogo{
+        width: 168px;
+        height: 168px;
+    }
+    .parrafobox{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 60%;
+        color: black;
+    }
+    .parrafo{
+        display: flex;
+        font-size: large;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 25px;
+    }
+    .qr{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        border-style:solid;
+        color: black;
+    }
+    .imagenqr{
+        width: 168px;
+        height: 168px;
+    }
+
+    a.hover{
+        color: #0000;
+    }
 }
